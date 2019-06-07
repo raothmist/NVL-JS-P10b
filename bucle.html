@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>VCS prueba de bootcamp</title>
+<meta charset="utf-8"/>
+</head>
+<body>
+<header>
+	<h1>Bucles</h1>
+</header>
+<h3>Los Números pares son</h2>
+<p id = "pares"></p>
+<h3>Los Números impares son</h3>
+<p id = "impar"></p>
+<script type="text/javascript">    
+var numero; 
+var impar = [];
+var pares = [];
+for (i =0 ; i < 50 ; i++ ) {
+    numero = Math.floor((Math.random() * 100) + 1);    
+    if (numero % 2 == 0){
+        pares.push(numero);
+        pares;
+    }else{
+        impar.push(numero);
+        impar;
+    }
+}
+document.getElementById("pares").innerHTML = pares;
+document.getElementById("impar").innerHTML = impar;
+ </script>	
+</body>
+</html>
